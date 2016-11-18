@@ -1,0 +1,978 @@
+{
+  "settings": {
+    "name": "Imovel Bauru",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "unicore",
+      "title": "Unicore",
+      "styling": {
+        "primaryColor": "#29d9c2",
+        "successColor": "#7ac673",
+        "infoColor": "#27aae0",
+        "warningColor": "#faaf40",
+        "dangerColor": "#f97352",
+        "titleFont": "Montserrat",
+        "textFont": "Raleway",
+        "isSquareButtons": false
+      }
+    },
+    "publishType": "github",
+    "publishPath": "file:///C:/Users/R/rfcarmona@gmail.com/FREELAS/IMOVEL%20BAURU/SITE/V1",
+    "versionFirst": "3.9.0",
+    "uniqCompNum": 40,
+    "versionPublish": "3.9.0"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "alias": "dropdown-menu",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-1",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">IMÓVEL BAURU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"true\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features10-3\">LANÇAMENTOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"index.html#msg-box1-7\">CONTATO</a></li>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/13-fhd.jpg",
+                "contentAlign": "left",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Slide 1",
+                "showText": true,
+                "text": "Develop fully responsive, mobile-optimized websites that look amazing on any devices and browsers. Preview how your website will appear on phones, tablets and desktops directly in the visual editor.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/40.jpg",
+                "contentAlign": "center",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Slide 2",
+                "showText": true,
+                "text": "Mobirise is based on Bootstrap 3 - most powerful mobile first framework. Use any bootstrap themes with no extra work.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/15-revert-fhd.jpg",
+                "contentAlign": "right",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Slide 3",
+                "showText": true,
+                "text": "Choose from the large selection of latest pre-made blocks - hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": true,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-2",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features10",
+          "_anchor": "features10-3",
+          "_params": {
+            "animType": "gorizontal",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "image1": "@PROJECT_PATH@/assets/images/1.jpg",
+            "showButtons": true,
+            "image2": "@PROJECT_PATH@/assets/images/2.jpg",
+            "image3": "@PROJECT_PATH@/assets/images/3.jpg",
+            "image4": "@PROJECT_PATH@/assets/images/4.jpg"
+          },
+          "title": "ÚLTIMOS LANÇAMENTOS",
+          "title1": "<strong>Flip Animation</strong>",
+          "text1": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
+          "button1": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
+          "title2": "<strong>Flip Animation</strong>",
+          "text2": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
+          "button2": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
+          "title3": "<strong>Flip Animation</strong>",
+          "text3": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
+          "button3": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
+          "title4": "<strong>Flip Animation</strong>",
+          "text4": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
+          "button4": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features9",
+          "_anchor": "features9-4",
+          "_params": {
+            "elements": "5",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true
+          },
+          "title": "CONSTRUTORAS",
+          "media1": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/6.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media2": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/7.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media3": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/8.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media4": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/9.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media5": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/10.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media6": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/10.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media7": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/9.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media8": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/8.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media9": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/7.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          },
+          "media10": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/6.png",
+              "class": "img-responsive center-block",
+              "width": 600,
+              "active": true
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons1",
+          "_anchor": "social-buttons1-6",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "images/bg3.jpg",
+            "bgColor": "@primaryColor",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "inverse": false,
+            "counters": true,
+            "facebook": true,
+            "google": true,
+            "twitter": true
+          },
+          "text": "COMPARTILHE"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-7",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "INTERESSADO EM ALGUM IMÓVEL?",
+          "text": "Preencha o formulário de contato que retornamos seu contato.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FORMULÁRIO</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts5",
+          "_anchor": "contacts5-9",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "iconsColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "icon1": "fa-mobile",
+            "icon2": "fa-whatsapp",
+            "icon3": "fa-envelope",
+            "icon4": "fa-map-marker"
+          },
+          "title": "CONTATOS",
+          "text": "",
+          "title1": "FONE",
+          "text1": "(080) 123 456 7890",
+          "title2": "WHATSAPP",
+          "text2": "(080) 123 456 7890",
+          "title3": "E-MAIL",
+          "text3": "support@website.com",
+          "title4": "local",
+          "text4": "24, Wallstreet, NY 20001"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-a",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#111",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "&copy; 2016. Unicore. All rights reserved."
+        }
+      ]
+    },
+    "BILD.html": {
+      "settings": {
+        "title": "BILD TEMPLATE"
+      },
+      "components": [
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header16",
+          "_anchor": "header16-10",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": 0,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/5.jpg",
+            "bgColor": "#ffffff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.1,
+            "overlayColor": "#000",
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false,
+            "showMedia": true
+          },
+          "title": "Clean &amp; Creative",
+          "text": "Nam tellus turpis blandit et ligula vel lacinia massa sit amet minus fugit in ipsum semper euismod massa auctor magna eget nunc iaculis nunc.",
+          "buttons": "<a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-primary btn-shadow\">Purchase Now</a><a data-app-btn=\"true\" href=\"#\" class=\"btn mbr-title-font btn-lg btn-default btn-border btn-shadow\">Learn More</a>",
+          "media": {
+            "image": {
+              "active": true,
+              "class": "mbr-figure__img img-responsive center-block",
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/avalon1-1400x218-49.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "features1",
+          "_anchor": "features1-o",
+          "_params": {
+            "elements": "4",
+            "paddingTop": "1",
+            "paddingBottom": "1",
+            "iconsColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showIcons": true,
+            "icon1": "fa-mobile",
+            "showTitles": true,
+            "showText": true,
+            "icon2": "fa-trophy",
+            "icon3": "fa-check-circle",
+            "icon4": "fa-lightbulb-o"
+          },
+          "title1": "Até 3",
+          "text1": "DORMITÓRIOS",
+          "title2": "Até 69m²",
+          "text2": "METRAGEM",
+          "title3": "272",
+          "text3": "UNIDADES",
+          "title4": "Jd Ouro Verde&nbsp;",
+          "text4": "LOCALIZAÇÃO"
+        },
+        {
+          "_inherit": "dropdown-menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons [data-button]": {
+              "display": "none !important"
+            },
+            ".navbar-brand a": {},
+            ".nav .link, .dropdown-item": {
+              "font-size": "1em",
+              "color": "#000000"
+            },
+            ".navbar, .dropdown-menu": {
+              "background": "#ffffff"
+            },
+            ".dropdown-menu .dropdown-toggle[aria-expanded=\"true\"], .dropdown-menu a:hover, .dropdown-menu a:focus": {
+              "background": "#f5f5f5"
+            },
+            ".navbar-toggler": {
+              "color": "#000000"
+            }
+          },
+          "alias": "dropdown-menu",
+          "_name": "dropdown-menu-2btn",
+          "_anchor": "dropdown-menu-2btn-c",
+          "_params": {
+            "bgColor": "#ffffff",
+            "fontSize": 1,
+            "fontName": {},
+            "fontColor": "#000000",
+            "transparent": false,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/logo.png",
+              "class": "",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "#top",
+              "title": "",
+              "linkInNewWindow": false
+            }
+          },
+          "brand": "<a class=\"text-black\" data-app-selector=\".navbar-brand a\" data-app-btn=\"true\" href=\"#top\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">IMÓVEL BAURU</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"#top\" aria-expanded=\"true\">INICIO</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html#features10-3\">LANÇAMENTOS</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black btn-black-outline\" href=\"index.html#msg-box1-7\">CONTATO</a></li>"
+        },
+        {
+          "headerAlign": "left",
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-11",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showMedia": true,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "class": "mbr-figure__img",
+              "width": 1400,
+              "src": "images/iphone.png"
+            },
+            "video": {
+              "active": true,
+              "src": "https://www.youtube.com/watch?v=cc1kYtQgpY4",
+              "class": "mbr-figure__img",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            }
+          },
+          "title": "AVALON",
+          "text": "Avalon um projeto moderno e completo como Bauru ainda não viu!<br>",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\">CONTATO</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider",
+          "_styles": {
+            "H1": {
+              "font-size": "30px",
+              "font-family": "'Raleway', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Raleway:400,300,700"
+            }
+          },
+          "_params": {
+            "autoplay": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "slides": [
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/13-fhd.jpg",
+                "contentAlign": "left",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Guarita com espera",
+                "showText": true,
+                "text": "Guarita com espera<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/40.jpg",
+                "contentAlign": "center",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Car wash",
+                "showText": true,
+                "text": "Car wash<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": true,
+                "image": "@PROJECT_PATH@/assets/images/15-revert-fhd.jpg",
+                "contentAlign": "right",
+                "overlay": "true",
+                "showTitle": true,
+                "title": "Churrasqueira com forno elétrico",
+                "showText": true,
+                "text": "Churrasqueira com forno elétrico<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-primary mbr-title-font\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default mbr-title-font\" href=\"https://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#ffffff",
+            "showBullets": true
+          },
+          "_anchor": "slider-12",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery1",
+          "_params": {
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "images": [
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/bike-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bike.jpg",
+                "active": true
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/code-man-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/code-man.jpg"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Creative",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/coworkers-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/coworkers.jpg"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/desktop-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/desktop.jpg"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/room-laptop-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/room-laptop.jpg"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/table-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/table.jpg"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Responsive",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/windows-books-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/windows-books.jpg"
+              },
+              {
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "caption": "Type caption here",
+                "thumb": "@PROJECT_PATH@/assets/images/working-area-small.jpg",
+                "image": "@PROJECT_PATH@/assets/images/working-area.jpg"
+              }
+            ],
+            "showText": false,
+            "bgColor": "#fff",
+            "filter": true,
+            "fullWidth": false,
+            "noGutter": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery1-q",
+          "articleLayout": false
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box6",
+          "_anchor": "msg-box6-u",
+          "_params": {
+            "tabs": "1",
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#29d9c2",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": false
+          },
+          "title": "DIFERENCIAIS",
+          "title1": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-u\" data-core=\"\" href=\"#collapseOnemsg-box6-u\" aria-expanded=\"true\" aria-controls=\"collapseOne\">DIFERENCIAIS</a>",
+          "text1": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title2": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-u\" data-core=\"\" href=\"#collapseTwomsg-box6-u\" aria-expanded=\"true\" aria-controls=\"collapseTwo\">This is a accordion Title 2</a>",
+          "text2": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title3": "<a role=\"button\" class=\"\" data-toggle=\"collapse\" data-parent=\"#msg-box6-u\" data-core=\"\" href=\"#collapseThreemsg-box6-u\" aria-expanded=\"true\" aria-controls=\"collapseThree\">This is a accordion Title 3</a>",
+          "text3": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title4": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6\" data-core=\"\" href=\"#collapseFour\" aria-expanded=\"false\" aria-controls=\"collapseFour\">This is a accordion Title 4</a>",
+          "text4": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title5": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6\" data-core=\"\" href=\"#collapseFive\" aria-expanded=\"false\" aria-controls=\"collapseFive\">This is a accordion Title 5</a>",
+          "text5": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>",
+          "title6": "<a role=\"button\" class=\"collapsed\" data-toggle=\"collapse\" data-parent=\"#msg-box6\" data-core=\"\" href=\"#collapseSix\" aria-expanded=\"false\" aria-controls=\"collapseSix\">This is a accordion Title 6</a>",
+          "text6": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur in nulla ut magna vehicula libero luctus in ipsum consequat faucibus. Ut porta nulla ac dapibus convallis. Curabitur sit amet massa quam. In ut ex auctor, porta neque quis, sagittis purus. Nunc auctor gravida magna, sed efficitur tortor tristique quis.</p>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "progressBar",
+          "_anchor": "progressBar-p",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "progress1": 40,
+            "progress2": 50,
+            "progress3": 60,
+            "progress4": 70,
+            "progress5": 70,
+            "progress6": 60,
+            "progress7": 50,
+            "progress8": 40,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showProgress1": true,
+            "showProgress2": true,
+            "showProgress3": true,
+            "showProgress4": true,
+            "showProgress5": false,
+            "showProgress6": false,
+            "showProgress7": false,
+            "showProgress8": false
+          },
+          "title": "estágio da obra",
+          "title1": "Photoshop",
+          "value1": "40%",
+          "value1_style": "width:40%",
+          "title2": "Illustrator",
+          "value2": "50%",
+          "value2_style": "width:50%",
+          "title3": "Coreldraw",
+          "value3": "60%",
+          "value3_style": "width:60%",
+          "title4": "Photography",
+          "value4": "70%",
+          "value4_style": "width:70%",
+          "title5": "Photoshop",
+          "value5": "70%",
+          "value5_style": "width:70%",
+          "title6": "Illustrator",
+          "value6": "60%",
+          "value6_style": "width:60%",
+          "title7": "Coreldraw",
+          "value7": "50%",
+          "value7_style": "width:50%",
+          "title8": "Photography",
+          "value8": "40%",
+          "value8_style": "width:40%"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "map1",
+          "_anchor": "map1-s",
+          "_params": {
+            "googleMap": {
+              "placeId": "ChIJtcaxrqlZwokRfwmmibzPsTU",
+              "address": "350 5th Ave, New York, NY 10118",
+              "state": "ok"
+            }
+          }
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box1",
+          "_anchor": "msg-box1-r",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "file:///C:/Users/R/AppData/Local/Mobirise.com/Mobirise/projectData/1_5.jpg",
+            "bgColor": "#222",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "INTERESSADO EM ALGUM IMÓVEL?",
+          "text": "Preencha o formulário de contato que retornamos seu contato.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn mbr-title-font cta-btn btn-default\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FORMULÁRIO</a>"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts5",
+          "_anchor": "contacts5-d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "iconsColor": "@primaryColor",
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.75,
+            "overlayColor": "#151515",
+            "icon1": "fa-mobile",
+            "icon2": "fa-whatsapp",
+            "icon3": "fa-envelope",
+            "icon4": "fa-map-marker"
+          },
+          "title": "CONTATOS",
+          "text": "",
+          "title1": "FONE",
+          "text1": "(080) 123 456 7890",
+          "title2": "WHATSAPP",
+          "text2": "(080) 123 456 7890",
+          "title3": "E-MAIL",
+          "text3": "support@website.com",
+          "title4": "local",
+          "text4": "24, Wallstreet, NY 20001"
+        },
+        {
+          "alias": "unicore/components",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_anchor": "footer1-e",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "parallax": false,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/1.jpg",
+            "bgColor": "#111",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#151515"
+          },
+          "text": "&copy; 2016. Unicore. All rights reserved."
+        }
+      ]
+    }
+  }
+}
