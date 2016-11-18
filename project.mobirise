@@ -111,7 +111,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/44.jpg",
                 "contentAlign": "center",
                 "overlay": "true",
                 "showTitle": true,
@@ -174,16 +174,16 @@
           "title": "ÚLTIMOS LANÇAMENTOS",
           "title1": "<strong>Flip Animation</strong>",
           "text1": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
-          "button1": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
+          "button1": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; + detalhes</a>",
           "title2": "<strong>Flip Animation</strong>",
           "text2": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
-          "button2": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
+          "button2": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; + DETALHES</a>",
           "title3": "<strong>Flip Animation</strong>",
           "text3": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
-          "button3": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>",
+          "button3": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp;+ DETALHES</a>",
           "title4": "<strong>Flip Animation</strong>",
           "text4": "Lorem Ipsum as the default will uncover many web sites still in their infancy versions have evolved over years.",
-          "button4": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp; Read more</a>"
+          "button4": "<a data-app-btn=\"true\" href=\"BILD.html\" class=\"btn mbr-title-font btn-default\" data-toolbar=\"-mbrBtnMove\"><i class=\"fa fa-paper-plane\"></i>&nbsp;+ DETALHES</a>"
         },
         {
           "alias": "unicore/components",
@@ -635,7 +635,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/42.jpg",
+                "image": "@PROJECT_PATH@/assets/images/44.jpg",
                 "contentAlign": "center",
                 "overlay": "true",
                 "showTitle": true,
