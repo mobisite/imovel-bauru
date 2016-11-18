@@ -111,7 +111,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/42.jpg",
                 "contentAlign": "center",
                 "overlay": "true",
                 "showTitle": true,
@@ -193,7 +193,7 @@
           "_name": "features9",
           "_anchor": "features9-4",
           "_params": {
-            "elements": "5",
+            "elements": "4",
             "paddingTop": 2,
             "paddingBottom": 2,
             "parallax": false,
@@ -635,7 +635,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/40.jpg",
+                "image": "@PROJECT_PATH@/assets/images/42.jpg",
                 "contentAlign": "center",
                 "overlay": "true",
                 "showTitle": true,
