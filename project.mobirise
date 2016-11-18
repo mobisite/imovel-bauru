@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Imovel Bauru",
-    "currentPage": "index.html",
+    "currentPage": "BILD.html",
     "theme": {
       "name": "unicore",
       "title": "Unicore",
@@ -111,7 +111,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/40.jpg",
                 "contentAlign": "center",
                 "overlay": "true",
                 "showTitle": true,
@@ -635,7 +635,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/44.jpg",
+                "image": "@PROJECT_PATH@/assets/images/40.jpg",
                 "contentAlign": "center",
                 "overlay": "true",
                 "showTitle": true,
